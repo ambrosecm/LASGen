@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLuPng.a CMakeFiles/LuPng.dir/lupng.c.o
+/usr/bin/ranlib libLuPng.a

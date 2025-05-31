@@ -1,0 +1,15 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/home/ambrose/vsproject/TestLib/LuPng",
+      "-c",
+      "-o",
+      "CMakeFiles/LuPng.dir/lupng.c.o",
+      "/home/ambrose/vsproject/TestLib/LuPng/lupng.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/LuPng",
+    "file": "/home/ambrose/vsproject/TestLib/LuPng/lupng.c",
+    "output": "/home/ambrose/vsproject/TestLib/LuPng/CMakeFiles/LuPng.dir/lupng.c.o"
+  }
+]

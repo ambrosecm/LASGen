@@ -1,0 +1,3 @@
+/home/ambrose/vsproject/TestLib/LuPng/CMakeFiles/LuPng.dir
+/home/ambrose/vsproject/TestLib/LuPng/CMakeFiles/edit_cache.dir
+/home/ambrose/vsproject/TestLib/LuPng/CMakeFiles/rebuild_cache.dir

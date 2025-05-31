@@ -1,0 +1,118 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-c",
+      "-o",
+      "color.o",
+      "color.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/ffjpeg/src",
+    "file": "/home/ambrose/vsproject/TestLib/ffjpeg/src/color.c",
+    "output": "/home/ambrose/vsproject/TestLib/ffjpeg/src/color.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-c",
+      "-o",
+      "dct.o",
+      "dct.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/ffjpeg/src",
+    "file": "/home/ambrose/vsproject/TestLib/ffjpeg/src/dct.c",
+    "output": "/home/ambrose/vsproject/TestLib/ffjpeg/src/dct.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-c",
+      "-o",
+      "quant.o",
+      "quant.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/ffjpeg/src",
+    "file": "/home/ambrose/vsproject/TestLib/ffjpeg/src/quant.c",
+    "output": "/home/ambrose/vsproject/TestLib/ffjpeg/src/quant.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-c",
+      "-o",
+      "zigzag.o",
+      "zigzag.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/ffjpeg/src",
+    "file": "/home/ambrose/vsproject/TestLib/ffjpeg/src/zigzag.c",
+    "output": "/home/ambrose/vsproject/TestLib/ffjpeg/src/zigzag.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-c",
+      "-o",
+      "bitstr.o",
+      "bitstr.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/ffjpeg/src",
+    "file": "/home/ambrose/vsproject/TestLib/ffjpeg/src/bitstr.c",
+    "output": "/home/ambrose/vsproject/TestLib/ffjpeg/src/bitstr.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-c",
+      "-o",
+      "huffman.o",
+      "huffman.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/ffjpeg/src",
+    "file": "/home/ambrose/vsproject/TestLib/ffjpeg/src/huffman.c",
+    "output": "/home/ambrose/vsproject/TestLib/ffjpeg/src/huffman.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-c",
+      "-o",
+      "bmp.o",
+      "bmp.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/ffjpeg/src",
+    "file": "/home/ambrose/vsproject/TestLib/ffjpeg/src/bmp.c",
+    "output": "/home/ambrose/vsproject/TestLib/ffjpeg/src/bmp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-c",
+      "-o",
+      "jfif.o",
+      "jfif.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/ffjpeg/src",
+    "file": "/home/ambrose/vsproject/TestLib/ffjpeg/src/jfif.c",
+    "output": "/home/ambrose/vsproject/TestLib/ffjpeg/src/jfif.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-o",
+      "ffjpeg.o",
+      "ffjpeg.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/ffjpeg/src",
+    "file": "/home/ambrose/vsproject/TestLib/ffjpeg/src/ffjpeg.c",
+    "output": "/home/ambrose/vsproject/TestLib/ffjpeg/src/ffjpeg.o"
+  }
+]

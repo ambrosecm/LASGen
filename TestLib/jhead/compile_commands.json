@@ -1,0 +1,178 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-O2",
+      "-ffile-prefix-map=/home/ambrose/vsproject/TestLib/jhead=.",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-fstack-protector-strong",
+      "-Wformat",
+      "-Werror=format-security",
+      "-c",
+      "-o",
+      "obj/jhead.o",
+      "jhead.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/jhead",
+    "file": "/home/ambrose/vsproject/TestLib/jhead/jhead.c",
+    "output": "/home/ambrose/vsproject/TestLib/jhead/obj/jhead.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-O2",
+      "-ffile-prefix-map=/home/ambrose/vsproject/TestLib/jhead=.",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-fstack-protector-strong",
+      "-Wformat",
+      "-Werror=format-security",
+      "-c",
+      "-o",
+      "obj/jpgfile.o",
+      "jpgfile.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/jhead",
+    "file": "/home/ambrose/vsproject/TestLib/jhead/jpgfile.c",
+    "output": "/home/ambrose/vsproject/TestLib/jhead/obj/jpgfile.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-O2",
+      "-ffile-prefix-map=/home/ambrose/vsproject/TestLib/jhead=.",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-fstack-protector-strong",
+      "-Wformat",
+      "-Werror=format-security",
+      "-c",
+      "-o",
+      "obj/jpgqguess.o",
+      "jpgqguess.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/jhead",
+    "file": "/home/ambrose/vsproject/TestLib/jhead/jpgqguess.c",
+    "output": "/home/ambrose/vsproject/TestLib/jhead/obj/jpgqguess.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-O2",
+      "-ffile-prefix-map=/home/ambrose/vsproject/TestLib/jhead=.",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-fstack-protector-strong",
+      "-Wformat",
+      "-Werror=format-security",
+      "-c",
+      "-o",
+      "obj/paths.o",
+      "paths.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/jhead",
+    "file": "/home/ambrose/vsproject/TestLib/jhead/paths.c",
+    "output": "/home/ambrose/vsproject/TestLib/jhead/obj/paths.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-O2",
+      "-ffile-prefix-map=/home/ambrose/vsproject/TestLib/jhead=.",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-fstack-protector-strong",
+      "-Wformat",
+      "-Werror=format-security",
+      "-c",
+      "-o",
+      "obj/exif.o",
+      "exif.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/jhead",
+    "file": "/home/ambrose/vsproject/TestLib/jhead/exif.c",
+    "output": "/home/ambrose/vsproject/TestLib/jhead/obj/exif.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-O2",
+      "-ffile-prefix-map=/home/ambrose/vsproject/TestLib/jhead=.",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-fstack-protector-strong",
+      "-Wformat",
+      "-Werror=format-security",
+      "-c",
+      "-o",
+      "obj/iptc.o",
+      "iptc.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/jhead",
+    "file": "/home/ambrose/vsproject/TestLib/jhead/iptc.c",
+    "output": "/home/ambrose/vsproject/TestLib/jhead/obj/iptc.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-O2",
+      "-ffile-prefix-map=/home/ambrose/vsproject/TestLib/jhead=.",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-fstack-protector-strong",
+      "-Wformat",
+      "-Werror=format-security",
+      "-c",
+      "-o",
+      "obj/gpsinfo.o",
+      "gpsinfo.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/jhead",
+    "file": "/home/ambrose/vsproject/TestLib/jhead/gpsinfo.c",
+    "output": "/home/ambrose/vsproject/TestLib/jhead/obj/gpsinfo.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-O2",
+      "-ffile-prefix-map=/home/ambrose/vsproject/TestLib/jhead=.",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-flto=auto",
+      "-ffat-lto-objects",
+      "-fstack-protector-strong",
+      "-Wformat",
+      "-Werror=format-security",
+      "-c",
+      "-o",
+      "obj/makernote.o",
+      "makernote.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/jhead",
+    "file": "/home/ambrose/vsproject/TestLib/jhead/makernote.c",
+    "output": "/home/ambrose/vsproject/TestLib/jhead/obj/makernote.o"
+  }
+]

@@ -1,0 +1,79 @@
+Performing C SOURCE FILE Test JAS_HAVE_MSVC_FSANITIZE_ADDRESS failed with the following output:
+Change Dir: /home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9874e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9874e.dir/build.make CMakeFiles/cmTC_9874e.dir/build
+gmake[1]: Entering directory '/home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9874e.dir/src.c.o
+/usr/bin/cc -DJAS_HAVE_MSVC_FSANITIZE_ADDRESS  /fsanitize=address -o CMakeFiles/cmTC_9874e.dir/src.c.o -c /home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CMakeTmp/src.c
+cc: warning: /fsanitize=address: linker input file unused because linking not done
+cc: error: /fsanitize=address: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_9874e.dir/build.make:78: CMakeFiles/cmTC_9874e.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_9874e.dir/src.c.o'
+gmake[1]: Leaving directory '/home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9874e/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if files io.h exist failed with the following output:
+Change Dir: /home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_30810/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_30810.dir/build.make CMakeFiles/cmTC_30810.dir/build
+gmake[1]: Entering directory '/home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30810.dir/JAS_HAVE_IO_H.c.o
+/usr/bin/cc   -pedantic  -fPIE -std=gnu11 -o CMakeFiles/cmTC_30810.dir/JAS_HAVE_IO_H.c.o -c /home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CheckIncludeFiles/JAS_HAVE_IO_H.c
+/home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CheckIncludeFiles/JAS_HAVE_IO_H.c:2:10: fatal error: io.h: No such file or directory
+    2 | #include <io.h>
+      |          ^~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_30810.dir/build.make:78: CMakeFiles/cmTC_30810.dir/JAS_HAVE_IO_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_30810/fast] Error 2
+
+
+Source:
+/* */
+#include <io.h>
+
+
+int main(void){return 0;}
+
+Determining if files libheif/heif.h exist failed with the following output:
+Change Dir: /home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b9d6a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b9d6a.dir/build.make CMakeFiles/cmTC_b9d6a.dir/build
+gmake[1]: Entering directory '/home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9d6a.dir/JAS_HAVE_HEIF_H.c.o
+/usr/bin/cc   -pedantic  -fPIE -std=gnu11 -o CMakeFiles/cmTC_b9d6a.dir/JAS_HAVE_HEIF_H.c.o -c /home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CheckIncludeFiles/JAS_HAVE_HEIF_H.c
+/home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CheckIncludeFiles/JAS_HAVE_HEIF_H.c:2:10: fatal error: libheif/heif.h: No such file or directory
+    2 | #include <libheif/heif.h>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_b9d6a.dir/build.make:78: CMakeFiles/cmTC_b9d6a.dir/JAS_HAVE_HEIF_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b9d6a/fast] Error 2
+
+
+Source:
+/* */
+#include <libheif/heif.h>
+
+
+int main(void){return 0;}
+
+Performing C SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY failed with the following output:
+Change Dir: /home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7c3a5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7c3a5.dir/build.make CMakeFiles/cmTC_7c3a5.dir/build
+gmake[1]: Entering directory '/home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c3a5.dir/src.c.o
+/usr/bin/cc -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -pedantic  -fPIE   -fvisibility-inlines-hidden -std=gnu11 -o CMakeFiles/cmTC_7c3a5.dir/src.c.o -c /home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command-line option '-fvisibility-inlines-hidden' is valid for C++/ObjC++ but not for C
+Linking C executable cmTC_7c3a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c3a5.dir/link.txt --verbose=1
+/usr/bin/cc  -pedantic  CMakeFiles/cmTC_7c3a5.dir/src.c.o -o cmTC_7c3a5 
+gmake[1]: Leaving directory '/home/ambrose/vsproject/TestLib/jasper_build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }

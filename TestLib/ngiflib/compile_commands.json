@@ -1,0 +1,102 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-DNGIFLIBSDL_LOG",
+      "-D_GNU_SOURCE=1",
+      "-D_REENTRANT",
+      "-I/usr/include/SDL",
+      "-c",
+      "-o",
+      "gif2tga.o",
+      "gif2tga.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/ngiflib",
+    "file": "/home/ambrose/vsproject/TestLib/ngiflib/gif2tga.c",
+    "output": "/home/ambrose/vsproject/TestLib/ngiflib/gif2tga.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-DNGIFLIBSDL_LOG",
+      "-D_GNU_SOURCE=1",
+      "-D_REENTRANT",
+      "-I/usr/include/SDL",
+      "-c",
+      "-o",
+      "ngiflib.o",
+      "ngiflib.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/ngiflib",
+    "file": "/home/ambrose/vsproject/TestLib/ngiflib/ngiflib.c",
+    "output": "/home/ambrose/vsproject/TestLib/ngiflib/ngiflib.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-DNGIFLIBSDL_LOG",
+      "-D_GNU_SOURCE=1",
+      "-D_REENTRANT",
+      "-I/usr/include/SDL",
+      "-c",
+      "-o",
+      "SDLaffgif.o",
+      "SDLaffgif.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/ngiflib",
+    "file": "/home/ambrose/vsproject/TestLib/ngiflib/SDLaffgif.c",
+    "output": "/home/ambrose/vsproject/TestLib/ngiflib/SDLaffgif.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-DNGIFLIBSDL_LOG",
+      "-D_GNU_SOURCE=1",
+      "-D_REENTRANT",
+      "-I/usr/include/SDL",
+      "-c",
+      "-o",
+      "ngiflibSDL.o",
+      "ngiflibSDL.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/ngiflib",
+    "file": "/home/ambrose/vsproject/TestLib/ngiflib/ngiflibSDL.c",
+    "output": "/home/ambrose/vsproject/TestLib/ngiflib/ngiflibSDL.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-O",
+      "-Wall",
+      "-Wextra",
+      "-g",
+      "-DNGIFLIBSDL_LOG",
+      "-D_GNU_SOURCE=1",
+      "-D_REENTRANT",
+      "-I/usr/include/SDL",
+      "-c",
+      "-o",
+      "gif2txt.o",
+      "gif2txt.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/ngiflib",
+    "file": "/home/ambrose/vsproject/TestLib/ngiflib/gif2txt.c",
+    "output": "/home/ambrose/vsproject/TestLib/ngiflib/gif2txt.o"
+  }
+]

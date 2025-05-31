@@ -1,0 +1,32 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-O2",
+      "-o",
+      "wav_info",
+      "../../libwav.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/libwav/tools/wav_info",
+    "file": "/home/ambrose/vsproject/TestLib/libwav/libwav.c",
+    "output": "/home/ambrose/vsproject/TestLib/libwav/tools/wav_info/wav_info"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-O2",
+      "-o",
+      "wav_info",
+      "wav_info.c"
+    ],
+    "directory": "/home/ambrose/vsproject/TestLib/libwav/tools/wav_info",
+    "file": "/home/ambrose/vsproject/TestLib/libwav/tools/wav_info/wav_info.c",
+    "output": "/home/ambrose/vsproject/TestLib/libwav/tools/wav_info/wav_info"
+  }
+]
